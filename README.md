@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Conversor de Imagens WebP
 
-## Project info
+Um conversor moderno, rápido e responsivo que converte imagens PNG e JPG para o formato WebP otimizado.
 
-**URL**: https://lovable.dev/projects/ae280902-3d36-4b67-930b-976b8bf946ad
+## ✨ Funcionalidades
 
-## How can I edit this code?
+- 🖼️ **Upload fácil**: Drag & drop ou seleção de arquivos
+- 🔄 **Conversão otimizada**: Converte para WebP com qualidade ajustada (80%)
+- 📏 **Múltiplos tamanhos**: Download em diferentes dimensões otimizadas
+- 📊 **Comparação visual**: Preview antes/depois com estatísticas de compressão
+- 📱 **Totalmente responsivo**: Mobile-first design
+- 🔒 **Seguro**: Validação de tipos de arquivo e tamanho (limite 10MB)
 
-There are several ways of editing your application.
+## 🎯 Tamanhos de Download Disponíveis
 
-**Use Lovable**
+- **Hero/Banner**: 1920×1080px (ideal para banners desktop)
+- **Post de Blog**: 1200×800px (ideal para artigos)
+- **Thumbnail**: 300×300px (miniaturas)
+- **Logo/Ícone**: 100×100px (pequenos ícones)
+- **Tamanho Original**: Mantém dimensões originais
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ae280902-3d36-4b67-930b-976b8bf946ad) and start prompting.
+## 🚀 Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** com TypeScript
+- **Tailwind CSS** para design system personalizado
+- **Lucide React** para ícones
+- **Vite** para build otimizado
+- **Canvas API** para processamento de imagens
 
-**Use your preferred IDE**
+## 💡 Por que WebP?
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+O WebP é um formato de imagem desenvolvido pelo Google que oferece:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- ⚡ **Carregamento mais rápido** - Arquivos menores
+- 🎨 **Qualidade preservada** - Redução até 80% sem perda visual significativa
+- 🔍 **Melhor SEO** - Sites mais rápidos são melhor ranqueados
+- 🌐 **Suporte amplo** - Compatível com navegadores modernos
 
-Follow these steps:
+## 🛠️ Como executar localmente
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone o repositório
+git clone <sua-url-do-git>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Entre no diretório
+cd conversor-webp
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Execute o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Design System
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O projeto utiliza um design system personalizado com:
 
-**Use GitHub Codespaces**
+- **Cores primárias**: Azul moderno (#3B82F6)
+- **Cores de sucesso**: Verde elegante (#10B981)
+- **Gradientes sutis** e **sombras elegantes**
+- **Animações suaves** para feedback visual
+- **Tipografia moderna** e hierárquica
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Responsividade
 
-## What technologies are used for this project?
+- **Mobile-first**: Otimizado para dispositivos móveis
+- **Breakpoints adaptativos**: Funciona em todas as telas
+- **Touch-friendly**: Elementos adequados para toque
 
-This project is built with:
+## 🔒 Segurança
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Validação de tipos de arquivo (apenas PNG, JPG, JPEG)
+- Limite de tamanho de 10MB por arquivo
+- Processamento local no navegador (sem upload para servidor)
 
-## How can I deploy this project?
+## 📄 SEO Otimizado
 
-Simply open [Lovable](https://lovable.dev/projects/ae280902-3d36-4b67-930b-976b8bf946ad) and click on Share -> Publish.
+- Meta tags completas para compartilhamento social
+- Structured data para motores de busca
+- URLs canônicas e alt text em imagens
+- Performance otimizada para Core Web Vitals
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Desenvolvido com ❤️ usando tecnologias modernas para web.
