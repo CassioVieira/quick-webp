@@ -74,13 +74,5 @@ O projeto utiliza um design system personalizado com:
 - Limite de tamanho de 10MB por arquivo
 - Processamento local no navegador (sem upload para servidor)
 
-## 📄 SEO Otimizado
 
-- Meta tags completas para compartilhamento social
-- Structured data para motores de busca
-- URLs canônicas e alt text em imagens
-- Performance otimizada para Core Web Vitals
-
----
-
-Desenvolvido com ❤️ usando tecnologias modernas para web.
+Desenvolvido usando tecnologias modernas para web.
